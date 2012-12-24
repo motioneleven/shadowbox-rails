@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["mathieu@motioneleven.com"]
   gem.description   = %q{Adds shadowbox.js to your assets pipeline}
   gem.summary       = %q{Include the lightbox effect from shadowbox to your photos, videos, flash, etc. This gem will include the latest shadowbox.js, shadowbox.css and shadowbox required images to your assets pipeline so it's ready for deploy.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/motioneleven/shadowbox-rails"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
