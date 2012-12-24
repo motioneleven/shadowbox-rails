@@ -31,10 +31,20 @@ Or install it yourself as:
 ## Usage
 
   Add rel='shadowbox' to links where the href is your full size image like this:
+    
     link_to 'Test me!', asset_path('path_to_my_img.jpg'), rel: 'shadowbox'
 
   Go to http://www.shadowbox-js.com/ for more details.
+  
+## Configure
 
+  Add Shadowbox.init(); in \<head\> tag
+  
+    <script type="text/javascript">
+      Shadowbox.init();
+    </script>
+    
+  Go to http://www.shadowbox-js.com/usage.html for a complete list of all options.
 
 ## Contributing
 
